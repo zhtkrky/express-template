@@ -1,0 +1,50 @@
+# Ignore temporary files
+*~
+
+# Ignore the operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore log and database files
+*.log
+*.sqlite
+*.sqlite3
+
+# Ignore compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore the virtual environment folder
+venv/
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore compiled C++ files
+*.out
+
+# Ignore macOS folder attributes
+._*
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment-specific files
+.env
+
+# Ignore local configuration files
+config/local.conf
+
+# Ignore sensitive information
+secrets.txt
+passwords.txt
